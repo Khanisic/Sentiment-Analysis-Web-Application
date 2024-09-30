@@ -1,6 +1,6 @@
 # Sentiment Analysis Web Application
 
-![Alt text](image_url_or_path "Optional Title")
+![Alt text](elecpres_trust.png "Trust Sentiment Analysis of the word election and president")
 
 
 An interactive platform for understanding contemporary sentiment and trends on pressing societal issues across the United States.
@@ -14,10 +14,9 @@ An interactive platform for understanding contemporary sentiment and trends on p
   - [Prerequisites](#prerequisites)
   - [Steps](#steps)
 - [Usage](#usage)
-- [Future Developments](#future-developments)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
+- [Screenshots](#screenshots)
 
 ## Introduction
 
@@ -36,8 +35,6 @@ This platform leverages over 3 million tweets to map and analyze public sentimen
 - **Web Framework**: Shiny
 - **Data Visualization**: ggplot2, plotly
 - **Text Processing**: tidytext, dplyr
-- **Caching**: memoise package with custom caching strategies
-- **Data Sources**: Twitter API
 
 ## Installation
 
@@ -87,5 +84,21 @@ This platform leverages over 3 million tweets to map and analyze public sentimen
 Thank you for using the Sentiment Analysis Web Application! We hope you find it helpful for your research and analysis.
 
 You are most welcome to make contributions to improve this project. If you have ideas for new features, bug fixes, or enhancements, feel free to fork the repository and submit a pull request. We appreciate your support and look forward to your contributions!
+
+## Screenshots
+
+![Alt text](soccer_emotion.png)
+![Alt text](elecpres_negative.png)
+
+
+
+## Contact
+
+If you have any questions or would like to get in touch, feel free to contact us:
+
+- **Abdul Moid Khan Mohammed**
+  - Email: [amohammed48@mail.bradley.edu](mailto:skhan852000@gmail.com)
+  - GitHub: [Khanisic](https://github.com/Khanisic)
+
 
 
