@@ -1,0 +1,272 @@
+/* app_styles.css */
+body {
+    background-color: #28282A;
+    font-family: "Roboto Slab", serif;
+    /* Change to your desired color */
+}
+
+.sidebar {
+    background: #050505;
+    border-radius: 16px;
+    color: white;
+    padding: 20px 24px;
+}
+
+.form-section {
+    display: flex;
+    padding: 8px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+}
+
+.well {
+    background-color: #eb2f2f;
+    border-radius: 0;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.form-inner-section {
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+#searchTerms {
+    background: #28282A;
+    border: none;
+    color: white;
+    border-radius: 12px;
+}
+
+#searchBtn {
+    background-color: #5D6885;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+}
+
+#toggle {
+    background-color: #93A0FF;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+}
+
+#main_title {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 300;
+    padding: 20px;
+}
+
+#stats_title {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    padding: 20px;
+}
+
+.irs--shiny .irs-bar {
+    top: 25px;
+    height: 8px;
+    z-index: 2;
+    border: none !important;
+    background: #93A0FF !important;
+}
+
+.irs--shiny .irs-handle {
+    top: 17px;
+    width: 22px;
+    height: 22px;
+    border: none !important;
+    background-color: #28282A;
+    box-shadow: none !important;
+    border-radius: 22px;
+    z-index: 2;
+}
+
+.dropdown-emotions {
+    padding: 0px 8px;
+}
+
+.map-section {
+    padding: 0px 8px;
+    max-width: 880px !important;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.shiny-input-container {
+    margin-bottom: 15px;
+}
+
+.selectize-input {
+    border-radius: 12px;
+    background: #93A0FF !important;
+    border: none;
+    color: white;
+}
+
+/* .layer>rect:first-of-type {
+    fill: #28282A !important;
+    fill-opacity: 1 !important;
+} */
+
+text.gtitle {
+    fill: #050505 !important;
+    font-size: 24px !important;
+    transform: translateY(20px);
+    font-family: "Roboto Slab", serif !important;
+}
+
+.top-inner {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.word-class {
+    width: fit-content;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #5D6885;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+#top-5-title {
+    margin: 0px;
+    font-size: 16px;
+    padding: 16px 24px;
+    margin: 0px;
+}
+
+.stats {
+    margin-top: 36px;
+    background: #050505;
+    border-radius: 16px;
+    color: white;
+    margin-top: 36px;
+    padding: 36px 36px;
+}
+
+.stats-table {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.stats-headings {
+    display: flex;
+    align-items: center;
+    margin-left: 36px;
+    gap: 50px;
+}
+
+.stat-heading {
+    margin: 0px;
+    background: #5D6885;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+#progress-outer{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #5D6885;
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    gap: 24px;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#progress-inner{
+    background: white;
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    gap: 24px;
+    height: 250px;
+    border-radius: 20px;
+}
+#progress-text{
+    color: black;
+    font-size: 24px;
+}
+
+#progress-loader{
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid;
+    border-color: #93A0FF white;
+    animation: l1 1s infinite;
+}
+
+@keyframes l1 {to{transform: rotate(.5turn)}}
+
+.stats-outer{
+    display: flex;
+    margin-left: 36px;
+}
+
+.statsInfo-state{
+    flex-direction: column;
+    display: flex;
+    gap: 24.2px;
+}
+
+.statsInfo-number{
+    margin-left: 16px;
+    flex-direction: column;
+    display: flex;
+    gap: 24.2px;
+}
+
+.statsInfo-top-5{
+    margin-left: 175px;
+    flex-direction: column;
+    display: flex;
+    gap: 8px;
+}
+
+.statsInfo-top-5-inner{
+    display: flex;
+    gap: 8px;
+}
+
+.info-inner-5{
+    background: #95d3be;
+    padding: 8px 16px;
+    color: #050505;
+    border-radius: 8px;
+}
+
+.info-inner{
+
+}
